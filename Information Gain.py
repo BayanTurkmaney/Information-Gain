@@ -36,16 +36,6 @@ def splitdataset(balance_data):
     return X, Y, X_train, X_test, y_train, y_test
 
 
-# Function to perform training with entropy.
-def train_using_entropy(X_train, X_test, y_train):
-    # Creating the classifier object
-    clf_entropy = DecisionTreeClassifier(criterion="entropy",
-                                      random_state=100, max_depth=3, min_samples_leaf=5)
-
-    # Performing training
-    clf_entropy.fit(X_train, y_train)
-    return clf_entropy
-
 
 # Function to perform training with entropy.
 def tarin_using_entropy(X_train, X_test, y_train):
@@ -87,8 +77,6 @@ def main():
     X, Y, X_train, X_test, y_train, y_test = splitdataset(data)
     clf_entropy = train_using_entropy(X_train, X_test, y_train)
 
-    # Operational Phase
-    print("Results Using entropy:")
 
     # Prediction using entropy
     y_pred_entropy = prediction(X_test, clf_entropy)
