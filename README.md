@@ -1,3 +1,2 @@
-# Information-Gain
-يقيس كسب المعلومات  مقدار "المعلومات" التي تقدمها لنا ميزة ما عن الفصل المدروس، أي أنّ عندما نستخدم عقدة في شجرة القرار لتقسيم العينة إلى مجموعات فرعية أصغر ، يتغير الإنتروبي و كسب المعلومات هو مقياس لهذا التغيير ، أي مقياس التناقص بقيمة الإنتروبي 
-•	كسب المعلومات يحسب الفرق بين الانتروبي قبل الانقسام والانتروبي المتوسطة بعد تقسيم مجموعة البيانات على أساس قيم السمات المعطاة 
+# Information-Gain	
+The information gain measures the amount of "information" that provides us with an advantage for the semester, that is, when you use a node in the decision tree to divide the sample into smaller subgroups, the entropy changes and the information gain is a measure of this change, i.e. the scale of attrition with the value of entropy  the information gain is calculated The difference between entropy before division and intermediate entropy after dividing the data set based on the values of the attributes given
